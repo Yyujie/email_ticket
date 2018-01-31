@@ -1,0 +1,23 @@
+{
+  "name": "email",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yyujie",
+  "license": "ISC",
+  "devDependencies": {
+    "node-schedule": "*",
+    "nodemailer": "^4.4.1"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "commander": "^2.9.0",
+    "inquirer": "^4.0.1",
+    "request": "^2.83.0",
+    "scanf": "^0.7.3",
+    "webpage": "^0.3.0"
+  }
+}
