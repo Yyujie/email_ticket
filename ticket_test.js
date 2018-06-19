@@ -4,7 +4,7 @@
     var nodemailer = require('nodemailer');
     var schedule = require('node-schedule');
     var config = {
-        time:'2018-02-21',//日期格式必须是这样 6
+        time:'2018-02-21',//日期格式必须是这样 
         from_station:'LZZ',//始发站车站代码，武汉
         end_station:'WHN',//柳州，可根据12306网页查询response数据确认站点编号
         train_num:'G530',//车次
